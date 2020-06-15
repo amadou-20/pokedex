@@ -7,6 +7,7 @@ const PokedexArrow = () => {
 <ul>
     <li>mikachu</li>
     <li>squirtel</li>
+    <li>PokedexArrow</li>
 </ul>
 
   </div>;
