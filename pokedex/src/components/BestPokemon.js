@@ -1,11 +1,17 @@
 import React from 'react';
 
-function BestPokemon() {
-  
-  return <div>
-   <p>My favourite Pokemon is squirtel</p>
+function BestPokemon(){ 
 
-  </div>;
+ const abilities = ['Anticipation', 'Adaptability', 'Run-Away']
+ return <div>
+  <ul>
+    {abilities.map((name) => {
+
+      return (
+        <li>{name}</li>
+      )
+    })}
+  </ul>
+</div>
 }
-
 export default BestPokemon;
