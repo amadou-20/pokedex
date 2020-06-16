@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function Logo() {
   return <div>
     <header>
      <h1>welcome to my pokedex</h1>
@@ -9,4 +9,4 @@ function Header() {
   </div>;
 }
 
-export default Header;
+export default Logo;

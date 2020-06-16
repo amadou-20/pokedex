@@ -1,13 +1,15 @@
 import React from 'react';
-import Header from './components/Header';
-import Pokedex from './components/Pokedex';
+import Logo from './components/Logo';
+import CaughtPokemon from './components/CaughtPokemon';
 import PokedexArrow from './components/PokedexArrow';
+import BestPokemon from './components/BestPokemon';
 
 function App() {
   return <div>
-    <Header/>
-    <Pokedex/>
+    <Logo/>
     <PokedexArrow/>
+    <CaughtPokemon/>
+    <BestPokemon/>
   </div>;
 }
 
